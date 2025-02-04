@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-newo",
+  "version": "1.0.0",
+  "description": "ESLint config for JavaScript, TypeScript, and React projects at newo.ai",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newo-ai/eslint-config-newo"
+  },
+  "author": "newo.ai",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "javascript",
+    "typescript",
+    "react",
+    "newo"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "eslint ./test"
+  },
+  "private": false,
+  "peerDependencies": {
+    "eslint": ">=9.18.0"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.2.6",
+    "@eslint/js": "^9.19.0",
+    "@typescript-eslint/parser": "^8.23.0",
+    "eslint": "^9.19.0",
+    "eslint-plugin-array-func": "^5.0.2",
+    "eslint-plugin-import-x": "^4.6.1",
+    "eslint-plugin-promise": "^7.2.1",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "eslint-plugin-regexp": "^2.7.0",
+    "eslint-plugin-sonar": "^0.14.1",
+    "eslint-plugin-sonarjs": "^3.0.1",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.23.0"
+  }
+}

@@ -1,8 +1,6 @@
 
 # eslint-config-newo
 
----
-
 A shareable ESLint flat configuration used internally at Newo, now available for public use. It provides opinionated linting rules for JavaScript, TypeScript, and React projects.
 
 ## Installation
