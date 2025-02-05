@@ -15,5 +15,5 @@ export default [
     ...promise,
     ...arrayFunc,
     ...importx,
-    ...regexp
+    ...regexp,
 ];

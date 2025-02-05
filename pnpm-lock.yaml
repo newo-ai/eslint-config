@@ -7,17 +7,11 @@ settings:
 importers:
 
   .:
-    devDependencies:
+    dependencies:
       '@eslint/compat':
         specifier: ^1.2.6
         version: 1.2.6(eslint@9.19.0)
       '@eslint/js':
-        specifier: ^9.19.0
-        version: 9.19.0
-      '@typescript-eslint/parser':
-        specifier: ^8.23.0
-        version: 8.23.0(eslint@9.19.0)(typescript@5.7.3)
-      eslint:
         specifier: ^9.19.0
         version: 9.19.0
       eslint-plugin-array-func:
@@ -50,15 +44,19 @@ importers:
       eslint-plugin-unicorn:
         specifier: ^56.0.1
         version: 56.0.1(eslint@9.19.0)
+      typescript-eslint:
+        specifier: ^8.23.0
+        version: 8.23.0(eslint@9.19.0)(typescript@5.7.3)
+    devDependencies:
+      eslint:
+        specifier: ^9.19.0
+        version: 9.19.0
       globals:
         specifier: ^15.14.0
         version: 15.14.0
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
-      typescript-eslint:
-        specifier: ^8.23.0
-        version: 8.23.0(eslint@9.19.0)(typescript@5.7.3)
 
 packages:
 

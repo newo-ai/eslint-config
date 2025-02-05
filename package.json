@@ -26,11 +26,9 @@
   "peerDependencies": {
     "eslint": ">=9.18.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "@eslint/compat": "^1.2.6",
     "@eslint/js": "^9.19.0",
-    "@typescript-eslint/parser": "^8.23.0",
-    "eslint": "^9.19.0",
     "eslint-plugin-array-func": "^5.0.2",
     "eslint-plugin-import-x": "^4.6.1",
     "eslint-plugin-promise": "^7.2.1",
@@ -41,8 +39,11 @@
     "eslint-plugin-sonar": "^0.14.1",
     "eslint-plugin-sonarjs": "^3.0.1",
     "eslint-plugin-unicorn": "^56.0.1",
-    "globals": "^15.14.0",
-    "typescript": "^5.7.3",
     "typescript-eslint": "^8.23.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.3"
   }
 }
