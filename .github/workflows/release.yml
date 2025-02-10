@@ -5,10 +5,52 @@ on:
     branches:
       - main
 
+permissions: {}
+
 jobs:
+  check-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: App token
+        id: app-token
+        uses: getsentry/action-github-app-token@v2
+        with:
+          app_id: ${{ secrets.pat_app_id }}
+          private_key: ${{ secrets.pat_app_private_key }}
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.11.1
+
+      - name: Update NPM version
+        run: npm i -g npm@10.5.0
+
+      - name: Install dependencies
+        run: npm install semver@7.6.3 semantic-release@23.0.2 @semantic-release/changelog@6.0.3 @semantic-release/git@10.0.1 conventional-changelog-conventionalcommits@7.0.2 conventional-changelog-eslint@5.0.0 @semantic-release/exec@6.0.3 --legacy-peer-deps --no-save
+
+      - name: Semantic release
+        id: semantic
+        env:
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release --dry-run --no-ci
+
   release:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
+    needs: check-release
     steps:
       - name: App token
         id: app-token
