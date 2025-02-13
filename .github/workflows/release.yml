@@ -50,7 +50,9 @@ jobs:
       issues: write
       pull-requests: write
       id-token: write
-    needs: check-release
+    needs:
+      - check-release
+    if: needs.check-release.outputs.VERIFY_RELEASE_VERSION != ''
     steps:
       - name: App token
         id: app-token
