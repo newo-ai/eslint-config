@@ -24,6 +24,9 @@
     "test": "eslint ./test"
   },
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "eslint": ">=9.18.0"
   },
