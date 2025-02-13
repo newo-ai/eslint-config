@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/newo-ai/eslint-config-newo/compare/v1.0.0...v1.1.0) (2025-02-13)
+
+
+### Features
+
+* modules update ([#7](https://github.com/newo-ai/eslint-config-newo/issues/7)) ([9dfda05](https://github.com/newo-ai/eslint-config-newo/commit/9dfda05cf8ea70af2f603fcea481a039410ea572))
+
 ## 1.0.0 (2025-02-13)
 
 
