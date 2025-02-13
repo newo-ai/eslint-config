@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/newo-ai/eslint-config-newo/compare/v1.1.0...v1.2.0) (2025-02-13)
+
+
+### Features
+
+* export configs ([#8](https://github.com/newo-ai/eslint-config-newo/issues/8)) ([bca7cfe](https://github.com/newo-ai/eslint-config-newo/commit/bca7cfe4e053aa216fdde029bef586941d015c50))
+
 ## [1.1.0](https://github.com/newo-ai/eslint-config-newo/compare/v1.0.0...v1.1.0) (2025-02-13)
 
 
