@@ -1,12 +1,12 @@
 
-# eslint-config-newo
+# @newo.ai/eslint-config
 
 A shareable ESLint flat configuration used internally at Newo, now available for public use. It provides opinionated linting rules for JavaScript, TypeScript, and React projects.
 
 ## Installation
 
 ```bash
-npm install --save-dev eslint-config-newo eslint typescript-eslint 
+npm install --save-dev @newo.ai/eslint-config eslint typescript-eslint 
 ```
 
 ## Available Configurations
@@ -23,7 +23,7 @@ In your `eslint.config.js` file:
 
 ```js
 import tslint from 'typescript-eslint';
-import newoEslintConfig from 'eslint-config-newo';
+import newoEslintConfig from '@newo.ai/eslint-config';
 
 export default tslint.config(
     ...newoEslintConfig.configs.base,
