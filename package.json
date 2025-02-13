@@ -17,6 +17,7 @@
     "newo"
   ],
   "files": [
+    "configs",
     "index.js"
   ],
   "scripts": {
