@@ -1,5 +1,5 @@
 {
-  "name": "@newo.ai/eslint-config-newo",
+  "name": "@newo.ai/eslint-config",
   "version": "1.3.0",
   "description": "ESLint config for JavaScript, TypeScript, and React projects at newo.ai",
   "main": "index.js",
@@ -24,6 +24,9 @@
     "test": "eslint ./test"
   },
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "eslint": ">=9.18.0"
   },
