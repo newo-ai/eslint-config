@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/newo-ai/eslint-config-newo/compare/v1.2.0...v1.3.0) (2025-02-13)
+
+
+### Features
+
+* added organization ([#9](https://github.com/newo-ai/eslint-config-newo/issues/9)) ([faa59ba](https://github.com/newo-ai/eslint-config-newo/commit/faa59ba57c3a72450db5283d85965fde413d9b7c))
+
 ## [1.2.0](https://github.com/newo-ai/eslint-config-newo/compare/v1.1.0...v1.2.0) (2025-02-13)
 
 
