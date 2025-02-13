@@ -39,6 +39,13 @@ const config = {
       },
     ],
     [
+      "@semantic-release/exec",
+      {
+        "publishCmd": "echo \"NEXT_RELEASE_VERSION=${nextRelease.version}\" >> $GITHUB_OUTPUT",
+        "verifyReleaseCmd": "echo \"VERIFY_RELEASE_VERSION=${nextRelease.version}\" >> $GITHUB_OUTPUT"
+      }
+    ],
+    [
       "@semantic-release/changelog",
       {
         changelogFile: "CHANGELOG.md",
