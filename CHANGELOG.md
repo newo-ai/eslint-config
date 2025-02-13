@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/newo-ai/eslint-config-newo/compare/v1.3.0...v1.4.0) (2025-02-13)
+
+
+### Features
+
+* renamed package ([#10](https://github.com/newo-ai/eslint-config-newo/issues/10)) ([add6213](https://github.com/newo-ai/eslint-config-newo/commit/add621381b950c887f35ffc5bf1df8079721fe4f))
+
 ## [1.3.0](https://github.com/newo-ai/eslint-config-newo/compare/v1.2.0...v1.3.0) (2025-02-13)
 
 
