@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/newo-ai/eslint-config-newo"
+    "url": "https://github.com/newo-ai/eslint-config"
   },
   "author": "newo.ai",
   "license": "MIT",
