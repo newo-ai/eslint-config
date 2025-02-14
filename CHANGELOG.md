@@ -1,3 +1,11 @@
+## [1.4.1](https://github.com/newo-ai/eslint-config-newo/compare/v1.4.0...v1.4.1) (2025-02-14)
+
+
+### Bug Fixes
+
+* added output in check-release ([#13](https://github.com/newo-ai/eslint-config-newo/issues/13)) ([0e8838f](https://github.com/newo-ai/eslint-config-newo/commit/0e8838f868a76babd580136f00e3f9a22fb5d91b))
+* dependence jobs in ci cd ([#12](https://github.com/newo-ai/eslint-config-newo/issues/12)) ([92d3e78](https://github.com/newo-ai/eslint-config-newo/commit/92d3e78384dabc5f66dd0a421e8372533260afda))
+
 ## [1.4.0](https://github.com/newo-ai/eslint-config-newo/compare/v1.3.0...v1.4.0) (2025-02-13)
 
 
