@@ -11,7 +11,8 @@ export default [
             "promise/param-names": "error",
             "promise/prefer-await-to-callbacks": "error",
             "promise/spec-only": "error",
-            "promise/valid-params": "error"
+            "promise/valid-params": "error",
+            "promise/always-return": ["error", { ignoreLastCallback: true }]
         }
     }
 ];
