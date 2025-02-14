@@ -77,7 +77,8 @@ export default [
             "react/no-unstable-nested-components": "error",
             "react/no-unused-state": "error",
             "react/style-prop-object": "error",
-            "react/self-closing-comp": "error"
+            "react/self-closing-comp": "error",
+            "react/react-in-jsx-scope": "off"
         }
     }
 ];

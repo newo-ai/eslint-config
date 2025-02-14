@@ -19,7 +19,20 @@ export default [
             "prefer-destructuring": "off",
             "@typescript-eslint/prefer-destructuring": "error",
             "@typescript-eslint/promise-function-async": "error",
-            "@typescript-eslint/require-array-sort-compare": "error"
+            "@typescript-eslint/require-array-sort-compare": "error",
+            "@typescript-eslint/restrict-template-expressions": ["error", {
+                allowNumber: true
+            }],
+            "@typescript-eslint/no-misused-promises": [
+                "error",
+                {
+                    "checksVoidReturn": {
+                        "arguments": true,
+                        "attributes": false
+                    }
+                }
+            ],
+            "@typescript-eslint/no-floating-promises": "off"
         }
     }
 ];
