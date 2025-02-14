@@ -1,6 +1,6 @@
 {
   "name": "@newo.ai/eslint-config",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "ESLint config for JavaScript, TypeScript, and React projects at newo.ai",
   "main": "index.js",
   "repository": {

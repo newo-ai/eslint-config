@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/newo-ai/eslint-config-newo/compare/v1.4.1...v1.4.2) (2025-02-14)
+
+
+### Bug Fixes
+
+* New react rules adjastments ([#15](https://github.com/newo-ai/eslint-config-newo/issues/15)) ([e1dedf3](https://github.com/newo-ai/eslint-config-newo/commit/e1dedf3e38825cd4bf098eb755a2c41bfaa04e21))
+
 ## [1.4.1](https://github.com/newo-ai/eslint-config-newo/compare/v1.4.0...v1.4.1) (2025-02-14)
 
 
